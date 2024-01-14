@@ -1,1 +1,64 @@
-/* Type your code here */
+#logo{
+display: flex;
+justify-content: flex-end;
+margin-top: 3vh;
+}
+
+.red{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    width: 59%;
+    padding: 7px;
+    color:white;
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+
+.img{
+    display: none;
+}
+
+.playername{
+    cursor: pointer;
+    color:blue;
+    font-weight: 800;
+}
+
+body{
+    margin: 0;
+    background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+
+table{
+    border-collapse: collapse;
+    width:60%;
+    background-color: white;
+    border: 1px solid black;
+}  
+
+th,td{
+    border-bottom: 1px solid black;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.notplayed{
+    display: flex;
+}
+
+.grey{
+    color:grey;
+    font-weight: 600;
+}
+
+h1{
+    text-shadow:5px 2px 15px#151515;
+}
+
+.heading{
+    font-size: large;
+}
